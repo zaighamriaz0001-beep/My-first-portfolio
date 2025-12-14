@@ -1,0 +1,171 @@
+html {
+   scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+#about {
+  scroll-margin-top: 0;
+}
+
+*{
+    background-color: rgb(26, 38, 37);
+    margin: 0;
+    padding: 0;
+    
+}
+.h1{
+    color: rgb(122 196 245);
+    padding: 20px 0 0 30px;
+
+}
+.navbar{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar> a{
+    position: relative;
+    text-decoration: none;
+    margin: 0 30px;
+    margin-right: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: rgb(122 196 245);
+    transition: width 0.4s ease;
+
+}
+.navbar a:hover::after{
+    width: 100%;
+}
+a:hover{
+    color: rgb(122 196 245);
+    transform: translateY(-3px);
+}
+.intro> h1{
+    font-size: 90px;
+    height: 90px;
+    color: rgb(122 196 245);
+    padding: 20px 0 0 30px;
+}
+h1>sup{
+    color: #fb3b3b;
+    font-size: 30px;
+}
+p{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 100px;
+    display: flex;
+    width: 550px;
+    text-align: justify;
+    font-family: cursive;
+    
+}
+p>img{
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    border-radius: 50%;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+p> img:hover{
+    box-shadow: 0 0 15px rgb(122 196 245);
+    transform: translateY(-5px);
+}
+h2{
+    color: rgb(6 250 185);
+    padding: 30px 0 30px 20px;
+    display: inline-block;
+}
+h2:hover{
+    color: red;
+    transform: translateY(-3px);
+}
+.sm>a{
+    color: rgb(122 196 245);
+    margin-left: 30px;
+    display: inline-flex; 
+    display: inline-block;
+    background: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.sm> a:hover{
+    color: red;
+    box-shadow: 0 0 15px red;
+    transform: translateY(-3px);
+}
+.aboutme> p{
+    width: 800px;
+}
+summary{
+    color: #874ce1;
+    padding-left: 50px;
+    line-height:2;
+    
+}
+.project> p{
+    font-family: Lucida Handwriting;
+    width: 900px;
+    
+}
+form{
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    
+}
+input{
+    border: 2px solid #ff9d9d;
+    height: 30px;
+    border-radius: 0 10px;
+}
+textarea{
+    border: 2px solid #ff9d9d;
+    border-radius: 0 10px;
+}
+button{
+    background-color: rgb(122 196 245);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+button:hover{
+    color:rgb(122 196 245);
+    background-color: black;
+}
+footer> p{
+    color: red;
+    cursor: pointer;
+    width: 960px;
+    display:flex;
+    justify-content:center;
+    color: white;
+}
+    
+#aboutme{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(122 196 245);
+}
+#myproject{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(122 196 245);
+}
+#contactme{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(122 196 245);
+}
