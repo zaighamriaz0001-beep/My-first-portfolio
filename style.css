@@ -39,7 +39,7 @@ img{
     color: red;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
-    font-size: 30px;
+    
 }
 
 .navbar{
@@ -383,4 +383,3 @@ form button:active{
     background-color: #f1f1f1;
     color: red;
 }
-
