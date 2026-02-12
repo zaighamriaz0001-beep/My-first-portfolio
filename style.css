@@ -1,385 +1,172 @@
-img{
+html {
+   scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+#about {
+  scroll-margin-top: 0;
+}
+
+*{
+    background-color: rgb(26, 38, 37);
     margin: 0;
     padding: 0;
-    display : inline-block;
-    padding-top: -5px;
-}
-.logo{
-    margin-top: -15px;
-    margin-left: -20px;
-    height: 100px;
-}
-.Home h1{
-    margin: 0;
-    padding: 0;
-}
-
-.logo p{
-    height: 10px;
-    padding: 0;
-    margin: 0;
-    padding-left: 31px;
-    font-family: monospace;
-    letter-spacing: 5px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    margin-top: 0;
-    position: relative;
-    bottom: 40px
-}
-.navbar a{
-    text-decoration: none;
-    padding: 20px;
-    color: black;
-    font-family: calibri;
-    font-weight: 900;
-}
-.navbar a:hover{
-    text-decoration: underline;
-    color: red;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
     
 }
-
-.navbar{
-    position: absolute;
-    right: 70px;
-    top: 40px;
-    
-}
-.para{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    margin: 50px;
-    padding: 20px;
-}
-
-
-#container{
-    text-align: center;
-    display: block;
-    padding: 0;
-    background: linear-gradient(to right, black, white, black);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
-}
-
-h1{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-figcaption button{
-    position: relative;
-    left: 150px;
-    bottom: 10px;
-    height: 30px;
-    width: 100px;
-    background: transparent;
-    word-spacing: 3px;
-    font-family: cursive;
-    font-weight: bold;
-    
-}
-figcaption button:hover{
-    box-shadow: 10px 10px 10px skyblue,-10px -10px 10px pink;
-    border-radius: 0 10px;
-}
-.img-1{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-1:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-2{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-2:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-3{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-3 button{
-    position: relative;
-    left: 115px;
-}
-.img-3:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-4{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-4:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-5{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-5:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-6{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-6:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-7{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-7:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-8{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-8 button{
-    position: relative;
-    left: 80px;
-    bottom: -10px;
-}
-.img-8:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-9{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-9:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-.img-10{
-    border: 2px solid black;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #e8e7e7;
-    border-radius: 20px;
-    font-family: cursive;
-    
-}
-.img-10:hover{
-    transition: all 0.3s linear;
-    transform: scale(1.04);
-    text-decoration: underline;
-}
-
-.portfolio p{
-    margin: 50px;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, black, rgb(77, 76, 76));
-    border-radius: 20px;
-    
-    color: yellow;
-
-}
-
-.portfolio p:hover{
-    box-shadow: 10px 10px 10px skyblue,-10px -10px 10px pink;
-    transform: translateY(-10px);
-    transition: all 0.3s ease-in-out;
-}
-.portfolio p::first-letter{
-    font-size: 30px;
-}
-.portfolio a{
-    letter-spacing: 5px;
-    height: 50px;
-    width: 200px;
-    background-color: transparent;
-    position: absolute;
-    left: 40%;
-    border: none;
-    color: black;
+sup, .h1{
+    color: rgb(122 196 245);
+    padding-left: 30px;
     font-weight: bolder;
-    text-decoration: none;
-    text-align: center;
-    align-content: center;
-    font-family: Segoe UI;
-    
 }
-
-.portfolio a::after{
+.navbar{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar> a{
+    position: relative;
+    text-decoration: none;
+    margin: 0 30px;
+    margin-right: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a::after{
     content: "";
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
     left: 0;
-    border: 2px solid black;
-    z-index: -1;
-    transition: all 0.3s ease;
-}
-.portfolio a:hover::after{
-    transform: scale(1.2,1.3);
-    background-color: black;
-    font-weight: bolder;
-    color: white;
-    border: 2px solid black;
-}
+    width: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: rgb(122 196 245);
+    transition: width 0.4s ease;
 
-.portfolio a:hover{
-    color: white;
-    font-weight: bolder;
-    transition: all 1s ease;
-} 
-.portfolio a:active{
-    color: red;
-    background: black;
 }
-
-
-.contact h1{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    top: 70px;
+.navbar a:hover::after{
+    width: 100%;
 }
-
-.contact{
-    border: 2px solid black;
-    height: 500px;
-    width: 400px;
-    position: relative;
-    top: 70px;
-    left: 30%;
-    align-items: center;
+a:hover{
+    color: rgb(122 196 245);
+    transform: translateY(-3px);
+}
+.intro> h1{
+    font-size: 90px;
+    height: 90px;
+    color: rgb(122 196 245);
     
 }
-.contact form{
-    position: relative;
-    top: 60px;
-    left: 30%;
+
+sup h1{
+    color: #fb3b3b;
+    font-size: 30px;
+}
+p{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 100px;
+    display: flex;
+    width: 550px;
+    text-align: justify;
     font-family: cursive;
     
 }
-.contact:hover{
-    box-shadow: 10px 10px 10px skyblue,-10px -10px 10px pink;
-    border-radius: 20px;
-    transition: all 0.3s ease-in-out;
-    transform: translateY(-10px);
+p>img{
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    border-radius: 50%;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
-form input{
-    height: 25px;
-    border: none;
-    border-bottom: 2px solid #1976D2;
+p> img:hover{
+    box-shadow: 0 0 15px rgb(122 196 245);
+    transform: translateY(-5px);
 }
-form input:active{
-    border: none;
-    border-bottom: 2px solid red;
+h2{
+    color: rgb(6 250 185);
+    padding: 30px 0 30px 20px;
+    display: inline-block;
+}
+h2:hover{
+    color: red;
+    transform: translateY(-3px);
+}
+.sm>a{
+    color: rgb(122 196 245);
+    margin-left: 30px;
+    display: inline-flex; 
+    display: inline-block;
+    background: transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.sm> a:hover{
+    color: red;
+    box-shadow: 0 0 15px red;
+    transform: translateY(-3px);
+}
+.aboutme> p{
+    width: 800px;
+}
+summary{
+    color: #874ce1;
+    padding-left: 50px;
+    line-height:2;
+    
+}
+.project> p{
+    font-family: Lucida Handwriting;
+    width: 900px;
+    
+}
+form{
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    
+}
+input{
+    border: 2px solid #ff9d9d;
+    height: 30px;
+    border-radius: 0 10px;
 }
 textarea{
-    border: none;
-    border-bottom: 2px solid #1976D2;
+    border: 2px solid #ff9d9d;
+    border-radius: 0 10px;
 }
-textarea:active{
-    border: none;
-    border-bottom: 2px solid red;
+button{
+    background-color: rgb(122 196 245);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 200px;
 }
-form button{
-    height: 50px;
-    width: 100px;
-    letter-spacing: 5px;
-    font-family: monospace;
-    font-weight: bolder;
-    background: transparent;
-    position: relative;
-    left: 150px;
-    transition: all 0.3s ease-in-out;
-    
+button:hover{
+    color:rgb(122 196 245);
+    background-color: black;
 }
-form button:hover{
-    transform: scale(1.2);
-    
-    
-}
-form button:active{
+footer> p{
     color: red;
-    background: black;
+    cursor: pointer;
+    width: 960px;
+    display:flex;
+    justify-content:center;
+    color: white;
 }
-
-.footer{
+    
+#aboutme{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 70px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    color: red;
+    cursor: pointer;
+    color: rgb(122 196 245);
+}
+#myproject{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(122 196 245);
+}
+#contactme{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(122 196 245);
 }
